@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <title>Document</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+
+    <div id="root"></div>
+           
+         
+            
+            </script>
+            <script type="text/babel">
+                
+                function Header(){
+                    return(
+                        <div class="header">NEW Header</div>
+                    )
+                }
+
+                function Content(){
+                    return(
+                        <div class="content">NEW Content</div>
+                    )
+                }
+
+                function Footer(){
+                    return(
+                        <div class="footer1">NEW footer</div>
+                    )
+                }
+
+                const root = (
+                    <div class="wrapper">
+                        <Header/>
+                        <Content/>
+                        <Footer />
+                        
+                    </div>
+                )
+               
+                    ReactDOM.render(root,document.getElementById("root"));
+                    
+
+            </script>
+</body>
+</html>
